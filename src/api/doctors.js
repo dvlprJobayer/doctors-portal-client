@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosDoctors = axios.create({
-    baseURL: 'http://localhost:5000/'
+    baseURL: 'https://young-brushlands-12407.herokuapp.com'
 });
 
 
