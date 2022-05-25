@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Chair from '../../assets/images/chair.png';
+import MainButton from '../Shared/MainButton';
 
 const Hero = () => {
     return (
@@ -9,7 +11,7 @@ const Hero = () => {
                 <div className="w-2/4 mr-10">
                     <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
                     <p className="py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
-                    <button className="btn btn-primary text-white bg-gradient-to-r from-secondary to-primary">Get Started</button>
+                    <MainButton><Link to="/appointment">Get Started</Link></MainButton>
                 </div>
             </div>
         </div>
